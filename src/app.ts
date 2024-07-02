@@ -11,7 +11,7 @@ app.get('/', (c) => {
 
 app.route('/api/items', items)
 
-const port = (process.env.PORT || 3300) as number
+const port = (process.env.PORT || 3000) as number
 console.log(`Server is running on port ${port}`)
 
 serve({
