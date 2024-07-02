@@ -8,7 +8,7 @@ app.get('/', (c) => {
   return c.text('Hello!')
 })
 
-app.route('/api', items)
+app.route('/api/items', items)
 
 const port = (process.env.PORT || 3300) as number
 console.log(`Server is running on port ${port}`)

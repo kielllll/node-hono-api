@@ -8,9 +8,9 @@ import {
 
 const items = new Hono()
 
-items.post('/items', createItem)
-items.get('/items/:id', getItemById)
-items.put('/items', updateItemById)
-items.delete('/items/:id', removeById)
+items.post('/', createItem)
+items.get('/:id', getItemById)
+items.put('/', updateItemById)
+items.delete('/:id', removeById)
 
 export default items
