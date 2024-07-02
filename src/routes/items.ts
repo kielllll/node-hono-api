@@ -4,7 +4,7 @@ import {
   getItemById,
   removeById,
   updateItemById,
-} from '../controllers/itemController'
+} from '../controllers/itemsController'
 
 const items = new Hono()
 
